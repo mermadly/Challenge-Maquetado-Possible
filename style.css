@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    
+    text-decoration: none;
+    color: black;
+
+}
+
+header {
+    background-color:#3e4855;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 15px 250px 15px 250px;
+    font-size: 1.15rem;
+
+}
+
+.list {
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 0.70rem;
+    font-weight: 600;
+
+}
+
+.language {
+    margin-left: 30px;
+}
+
+nav {
+    background-color: #e6eaed;
+    width: 100vw;
+    height: 60px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.our {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-left: 240px;
+    list-style: none;
+}
+
+/* .us:after {
+    position: absolute;
+    content: "";
+    height: 15px;
+    background-color: #242424;
+    width: 1px;
+    margin-left: 15px;
+    top: 50%;
+    }  */
+
+.us {
+    display: inline-block;
+    box-sizing: border-box;
+    width: auto;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    font-weight: 600;
+}
+.us:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#de9300;
+    height: 100%;
+    color: white;
+}
+
+.white {
+    display: inline-block;
+    height: auto;
+}
+.white:hover {
+    color: white;
+}
+
+.masthead {
+    background-color: black;
+    padding: 15px 250px 0px 250px;
+    color: white;
+    height: 250px;
+}
+
+.section-1 {
+    width: 32vw;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid white;
+    margin: 25px 0px 25px 0px;
+    padding: 10px 15px 10px 15px;
+}
+
+button > a {   
+    color: white;
+    font-weight: 600;
+}
+
+.info > a {
+    color: white;
+    margin-right: 15px;
+    font-size: 0.80rem;
+    font-weight: 500;
+}
+
+.info > a:hover {
+    color: #a0aab3
+}
+
+.secondlist {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1000px;
+}
